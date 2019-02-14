@@ -1,70 +1,44 @@
-.header {
-    font-family: Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: antiquewhite; 
-    margin: 20px;
-}
-div {
-    width: 1000px;
-    height: 100px;
-    background-color: antiquewhite; 
-}
-
-p {
-    font-family: Helvetica, sans-serif;
-    color: #777;
-    background-color: antiquewhite;
-    margin: 10px;
-}
-
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: antiquewhite; 
-    margin: 20px;
-}
-
 body {
-    color: rgb(0, 0, 0);
-    background-color: #777;
-    width: 960px;
-    font-size: 18px;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: #777;
+background: #777;
+width: 960px;
+font-size: 18px;
 }
 
-section {
-    font-family: Helvetica, sans-serif;
-    width: 495px;
-    background-color: rgb(104, 104, 104);
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 10px;
-    bottom: 10px;
+.set_one {
+    background: #ebebeb;
+    color: black;
     position: relative;
+    margin: 10px;
+}
+
+header {
+
 }
 
 nav {
-    font-family: Helvetica, sans-serif;
-    background-color: antiquewhite;
-    margin: 10px;
-    width: 1000px;
-    height: 70px;
+
 }
 
 aside {
-    font-family: Helvetica, sans-serif;
-    background-color: antiquewhite;
-    margin: 20px;
-    color: black;
+width: 425px;
+float: left;
 }
 
 article {
-    background-color: antiquewhite;
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 10px;
-    bottom: 10px;
-    position: relative;
+width: 495px;
+}
 
+p {
+width: 495px;
+}
 
+footer {
+clear: both;
+}
 
+section {
+width: 495px;
+float: left;
 }
