@@ -6,6 +6,11 @@ width: 960px;
 font-size: 18px;
 }
 
+header {
+    height: 100px;
+
+}
+
 .set_one {
     background: #ebebeb;
     color: black;
@@ -14,16 +19,19 @@ font-size: 18px;
 }
 
 header {
+border: 10px;
+margin: 10px;
 
 }
 
 nav {
-
+    height: 100px;
 }
 
 aside {
 width: 425px;
 float: left;
+height:230px;
 }
 
 article {
@@ -36,9 +44,12 @@ width: 495px;
 
 footer {
 clear: both;
+height: 100px;
+
 }
 
 section {
 width: 495px;
 float: left;
+height: 230px;
 }
